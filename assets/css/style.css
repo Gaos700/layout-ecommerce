@@ -7,6 +7,7 @@
 .contenedor-principal{
     display: flex;
     flex: 1;
+    background-color: #2F3136;
 }
 
 .menu-lateral{
@@ -18,6 +19,16 @@
     justify-content: start;
     padding: 30px 20px;
 }
+.menu-lateral h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.menu-lateral ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 
 .productos{
     display: grid;
@@ -27,7 +38,7 @@
     padding: 20px; 
 }
 .producto{
-    background-color: #2F3136;
+    background-color: #3d4046;
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -43,8 +54,16 @@
 
 .footer{
     grid-area: footer;
-    background-color: #2F3136;
+    background-color: #212529;
     color: #B9BBBE;
     text-align: center;
     padding: 10px;
+}
+.navbar-brand {
+    padding-left: 20px;
+}
+.producto button {
+    width: 100%;
+    background-color: #2F3136;
+    color: white;
 }
